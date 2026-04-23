@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALHADY — Aluminum Systems, Facades & Glass Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Enhanced Location Links Styling */
+        .location-link {
+            color: var(--white);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: flex-start;
+            gap: 10px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            line-height: 1.6;
+            padding: 8px 12px;
+            border: 1px solid rgba(197, 168, 75, 0.3);
+            border-radius: 8px;
+            position: relative;
+            background: rgba(197, 168, 75, 0.05);
+        }
+        .location-link:hover {
+            color: var(--gold);
+            transform: translateY(-2px);
+            background: rgba(197, 168, 75, 0.12);
+            border-color: rgba(197, 168, 75, 0.6);
+            box-shadow: 0 4px 12px rgba(197, 168, 75, 0.15);
+        }
+        .location-link i {
+            color: var(--gold);
+            font-size: 15px;
+            margin-top: 3px;
+            flex-shrink: 0;
+            transition: transform 0.3s ease;
+        }
+        .location-link:hover i {
+            transform: scale(1.15);
+        }
+        @media (max-width: 768px) {
+            .location-link {
+                padding: 12px 14px;
+                margin: -12px -14px;
+                border-radius: 10px;
+                gap: 12px;
+                border-width: 1.5px;
+                display: flex;
+                align-items: center;
+                line-height: 1.4;
+            }
+            .location-link:hover {
+                background: rgba(197, 168, 75, 0.15);
+                transform: translateY(-1px);
+                box-shadow: 0 6px 16px rgba(197, 168, 75, 0.2);
+            }
+            .location-link i {
+                font-size: 16px;
+                margin-top: 0;
+            }
+        }
+        @media (max-width: 480px) {
+            .location-link {
+                padding: 10px 12px;
+                margin: -10px -12px;
+                gap: 10px;
+                font-size: 14px;
+                line-height: 1.3;
+            }
+            .location-link i {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav id="nav">
+    <div class="nav-inner">
+        <a href="#hero" class="nav-logo">ALHADY<sup>EG</sup></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="https://wa.me/201013149777" class="nav-btn" target="_blank">
+            <i class="fas fa-phone" style="font-size:11px;"></i> Request a Quote
+        </a>
+    </div>
+</nav>
+
+<section id="hero">
+    <div class="hero-photo"></div>
+    <div class="hero-grad"></div>
+    <div class="hero-brand">ALHADY</div>
+    <div class="hero-content">
+        <div class="hero-eyebrow">Aluminum Systems · Egypt</div>
+        <h1 class="hero-h1">
+            Facades,<br>
+            Aluminum &<br>
+            <span>Glass Solutions</span>
+        </h1>
+        <p class="hero-sub">
+            Engineering-grade aluminum systems, high-performance building facades,
+            and precision glass installations. Trusted by developers and architects across Egypt.
+        </p>
+        <div class="hero-ctas">
+            <a href="https://wa.me/201013149777" class="btn-solid" target="_blank">
+                <i class="fab fa-whatsapp"></i> Start Your Project
+            </a>
+            <a href="#services" class="btn-ghost">View Our Services</a>
+        </div>
+        <div class="hero-metrics">
+            <div class="metric">
+                <div class="metric-val">500<em>+</em></div>
+                <div class="metric-label">Projects Completed</div>
+            </div>
+            <div class="metric">
+                <div class="metric-val">15<em>+</em></div>
+                <div class="metric-label">Years of Experience</div>
+            </div>
+            <div class="metric">
+                <div class="metric-val">4</div>
+                <div class="metric-label">Core Disciplines</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="marquee-bar">
+    <div class="marquee-track">
+        <span>Precision in Execution</span><span class="sep">◆</span>
+        <span>Excellence in Quality</span><span class="sep">◆</span>
+        <span>Trust in Every Detail</span><span class="sep">◆</span>
+        <span>Aluminum Systems</span><span class="sep">◆</span>
+        <span>Facades & Curtain Walls</span><span class="sep">◆</span>
+        <span>Glass Solutions</span><span class="sep">◆</span>
+        <span>Precision in Execution</span><span class="sep">◆</span>
+        <span>Excellence in Quality</span><span class="sep">◆</span>
+        <span>Trust in Every Detail</span><span class="sep">◆</span>
+        <span>Aluminum Systems</span><span class="sep">◆</span>
+        <span>Facades & Curtain Walls</span><span class="sep">◆</span>
+        <span>Glass Solutions</span><span class="sep">◆</span>
+    </div>
+</div>
+
+<section id="about" class="section section-alt">
+    <div class="container">
+        <div class="about-grid">
+            <div class="reveal">
+                <div class="eyebrow">About ALHADY</div>
+                <h2 class="section-h2">Built on<br>Engineering<br>Excellence.</h2>
+                <div class="about-body" style="margin-top:32px;">
+                    <p>ALHADY is a specialized Egyptian engineering company delivering premium aluminum systems, high-performance facades, and architectural glass solutions for residential and commercial projects.</p>
+                    <p>With our factory in Abu Rawash and our office in Omraniya, we combine industrial-scale manufacturing with hands-on project precision — from design consultation through final installation.</p>
+                    <p>Every system we build is engineered to perform structurally, to last climatically, and to look exceptional architecturally.</p>
+                </div>
+            </div>
+            <div class="about-stats reveal d2">
+                <div class="stat-cell">
+                    <div class="stat-n">500<em>+</em></div>
+                    <div class="stat-l">Projects Delivered</div>
+                </div>
+                <div class="stat-cell">
+                    <div class="stat-n">15<em>+</em></div>
+                    <div class="stat-l">Years Active</div>
+                </div>
+                <div class="stat-cell">
+                    <div class="stat-n">4</div>
+                    <div class="stat-l">Specializations</div>
+                </div>
+                <div class="stat-cell">
+                    <div class="stat-n">2</div>
+                    <div class="stat-l">Locations</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="section">
+    <div class="container">
+        <div class="services-intro">
+            <div class="reveal">
+                <div class="eyebrow">Our Capabilities</div>
+                <h2 class="section-h2">What We Build</h2>
+            </div>
+            <!-- <p class="reveal d2">Four integrated disciplines. Delivered to a single standard of engineering excellence on every project.</p> -->
+        </div>
+        <div class="services-grid">
+            <div class="svc reveal">
+                <div class="svc-num">01 — SERVICE</div>
+                <div class="svc-icon"><i class="fas fa-door-open"></i></div>
+                <div class="svc-name">Doors & Aluminum Windows</div>
+                <div class="svc-desc">Premium aluminum door and window systems engineered for modern architecture — thermally efficient, durable, and precisely fabricated to specification.</div>
+            </div>
+            <div class="svc reveal d1">
+                <div class="svc-num">02 — SERVICE</div>
+                <div class="svc-icon"><i class="fas fa-shower"></i></div>
+                <div class="svc-name">Glass Works</div>
+                <div class="svc-desc">Shower cabins, interior glass partitions, and frameless installations. Structural integrity and clarity from design through delivery.</div>
+            </div>
+            <div class="svc reveal d2">
+                <div class="svc-num">03 — SERVICE</div>
+                <div class="svc-icon"><i class="fas fa-building"></i></div>
+                <div class="svc-name">Facades & Curtain Walls</div>
+                <div class="svc-desc">High-performance facade and curtain wall systems for commercial and mixed-use buildings. Engineered for aesthetics and weather performance.</div>
+            </div>
+            <div class="svc reveal d3">
+                <div class="svc-num">04 — SERVICE</div>
+                <div class="svc-icon"><i class="fas fa-wind"></i></div>
+                <div class="svc-name">Louvers & Ventilation</div>
+                <div class="svc-desc">Architectural louver systems and controlled ventilation solutions. Balancing airflow, privacy, and visual proportion at building scale.</div>
+            </div>
+        </div>
+
+        <hr class="rule">
+
+        <div class="reveal">
+            <div class="eyebrow">How We Work</div>
+            <h2 class="section-h2">Our Process</h2>
+        </div>
+        <div class="process-grid">
+            <div class="process-step reveal">
+                <div class="process-step-num">01</div>
+                <div class="process-step-title">Consultation</div>
+                <div class="process-step-desc">We review your project requirements, site conditions, and objectives to define the right system for the job.</div>
+            </div>
+            <div class="process-step reveal d1">
+                <div class="process-step-num">02</div>
+                <div class="process-step-title">Design & Engineering</div>
+                <div class="process-step-desc">Technical drawings and system specifications developed to meet structural, thermal, and aesthetic standards.</div>
+            </div>
+            <div class="process-step reveal d2">
+                <div class="process-step-num">03</div>
+                <div class="process-step-title">Factory Production</div>
+                <div class="process-step-desc">Fabricated at our Abu Rawash facility with precision cutting, welding, and finishing under quality control.</div>
+            </div>
+            <div class="process-step reveal d3">
+                <div class="process-step-num">04</div>
+                <div class="process-step-title">Installation</div>
+                <div class="process-step-desc">Our installation crews deliver and fit every system on-site, with handover inspections and warranty support.</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="section section-alt">   
+    <div class="container">
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:24px;">
+            <div class="reveal">
+                <div class="eyebrow">Our Work</div>
+                <h2 class="section-h2">Selected Projects</h2>
+            </div>
+            <p class="reveal d1" style="font-size:14px; color:var(--silver); max-width:320px; text-align:right; line-height:1.7;">
+                From residential glass installations to large commercial curtain wall facades.
+            </p>
+        </div>
+        <div class="gallery-grid reveal d1">
+            <div class="gal">
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=85" alt="Aluminum Windows">
+                <span class="gal-badge">Windows</span>
+                <div class="gal-cap">
+                    <div class="gal-cap-tag">Aluminum Systems</div>
+                    <div class="gal-cap-title">Premium Aluminum Windows</div>
+                </div>
+            </div>
+            <div class="gal">
+                <img src="images/aluminium-glass-facade-curtain-wall-house-v1.jpg" alt="Glass Shower">
+                <span class="gal-badge">Glass Works</span>
+                <div class="gal-cap">
+                    <div class="gal-cap-tag">Interior Glass</div>
+                    <div class="gal-cap-title">Glass Shower Cabins</div>
+                </div>
+            </div>
+            <div class="gal">
+                <img src="images/aluminium-glass-facade-curtain-wall-modern-house-v25.jpg" alt="Building Facade">
+                <span class="gal-badge">Facades</span>
+                <div class="gal-cap">
+                    <div class="gal-cap-tag">Facade Systems</div>
+                    <div class="gal-cap-title">Building Facades</div>
+                </div>
+            </div>
+            <div class="gal">
+                <img src="images/aluminium-glass-facade-for-stairwell-residential-v2.jpg" alt="Louvers">
+                <span class="gal-badge">Louvers</span>
+                <div class="gal-cap">
+                    <div class="gal-cap-tag">Ventilation</div>
+                    <div class="gal-cap-title">Architectural Louvers</div>
+                </div>
+            </div>
+            <div class="gal">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900&q=85" alt="Curtain Wall">
+                <span class="gal-badge">Curtain Walls</span>
+                <div class="gal-cap">
+                    <div class="gal-cap-tag">Facade Engineering</div>
+                    <div class="ga  itle">Curtain Wall Systems</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <div class="reveal">
+            <div class="eyebrow">Get in Touch</div>
+            <h2 class="section-h2">Let's Work Together</h2>
+            <p class="section-lead">Have a project? Reach out for a consultation and quote. We work with developers, architects, and contractors across Egypt.</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info reveal">
+                <h3>Contact Information</h3>
+                <div>
+                    <div class="cinfo-row">
+                        <div class="cinfo-ico"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <div class="cinfo-label">Phone</div>
+                            <div class="cinfo-val">+20 101 314 9777</div>
+                        </div>
+                    </div>
+                    <div class="cinfo-row">
+                        <div class="cinfo-ico"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <div class="cinfo-label">Office</div>
+                            <div class="cinfo-val">
+                                <a href="https://maps.app.goo.gl/h5gVGuJjSJTVbSMWA?g_st=iw" target="_blank" class="location-link">
+                                    <i class="fas fa-map-pin"></i>
+                                    El Talatiny St., Omraniya<br>
+                                    <span style="font-size:14px; color:var(--silver);">Cairo, Egypt</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cinfo-row">
+                        <div class="cinfo-ico"><i class="fas fa-industry"></i></div>
+                        <div>
+                            <div class="cinfo-label">Factory</div>
+                            <div class="cinfo-val">
+                                <a href="https://www.google.com/maps/place/30%C2%B003'15.5%22N+31%C2%B006'07.6%22E/" target="_blank" class="location-link">
+                                    <i class="fas fa-map-pin"></i>
+                                    Al Wahat Road Axis<br>
+                                    <span style="font-size:14px; color:var(--silver);">Abu Rawash, Giza</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cinfo-row">
+                        <div class="cinfo-ico"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <div class="cinfo-label">Email</div>
+                            <div class="cinfo-val">elhadyalu@outlook.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-cta reveal d2">
+                <h3>Start Your <span>Project</span></h3>
+                <p>Whether it's a single apartment fitout or a large commercial facade — we're ready to review your requirements and provide a detailed quote.</p>
+                <a href="https://wa.me/201013149777" class="wa-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+                <div class="trust-tags">
+                    <div class="trust-tag">Precision in Execution</div>
+                    <div class="trust-tag">Excellence in Quality</div>
+                    <div class="trust-tag">Trust in Every Detail</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-top">
+            <div>
+                <div class="footer-brand-name">AL<span>HADY</span></div>
+                <div class="footer-brand-sub">For Aluminum Systems, Facades & Glass Solutions</div>
+            </div>
+            <div class="footer-cols">
+                <div class="footer-col">
+                    <h5>Precision</h5>
+                    <p>Every project completed with meticulous attention to structural and visual detail.</p>
+                </div>
+                <div class="footer-col">
+                    <h5>Quality</h5>
+                    <p>Premium materials and superior craftsmanship on every installation.</p>
+                </div>
+                <div class="footer-col">
+                    <h5>Trust</h5>
+                    <p>Building lasting client relationships through reliability and transparency.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-copy">© 2026 ALHADY. All rights reserved.</div>
+            <div class="footer-note">Cairo &amp; Giza, Egypt</div>
+        </div>
+    </div>
+</footer>
+
+<div class="float-wa">
+    <div class="float-wa-label">Let's Work Together</div>
+    <a href="https://wa.me/201013149777" class="float-wa-btn" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+
+<script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+        nav.classList.toggle('stuck', window.scrollY > 50);
+    }, { passive: true });
+
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+        a.addEventListener('click', e => {
+            const t = document.querySelector(a.getAttribute('href'));
+            if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+        });
+    });
+
+    const obs = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); } });
+    }, { threshold: 0.1, rootMargin: '0px 0px -32px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
