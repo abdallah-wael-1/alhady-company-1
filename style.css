@@ -447,9 +447,16 @@ body {
                 margin-top: 0;
             }
             .cinfo-row {
+<<<<<<< HEAD
                 padding: 15px 0;
             }
             .cinfo-row:has(.location-link) {
                 padding: 15px 0;
+=======
+                padding: 16px 0;
+            }
+            .cinfo-row:has(.location-link) {
+                padding: 16px 0;
+>>>>>>> b7e98f57e1e031dd4ba2b4d668cf507c82f4c79f
             }
         }
