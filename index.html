@@ -8,79 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        /* Enhanced Location Links Styling */
-        .location-link {
-            color: var(--white);
-            text-decoration: none;
-            display: inline-flex;
-            align-items: flex-start;
-            gap: 10px;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            line-height: 1.6;
-            padding: 8px 12px;
-            border: 1px solid rgba(197, 168, 75, 0.3);
-            border-radius: 8px;
-            position: relative;
-            background: rgba(197, 168, 75, 0.05);
-        }
-        .location-link:hover {
-            color: var(--gold);
-            transform: translateY(-2px);
-            background: rgba(197, 168, 75, 0.12);
-            border-color: rgba(197, 168, 75, 0.6);
-            box-shadow: 0 4px 12px rgba(197, 168, 75, 0.15);
-        }
-        .location-link i {
-            color: var(--gold);
-            font-size: 15px;
-            margin-top: 3px;
-            flex-shrink: 0;
-            transition: transform 0.3s ease;
-        }
-        .location-link:hover i {
-            transform: scale(1.15);
-        }
-        @media (max-width: 768px) {
-            .location-link {
-                padding: 12px 14px;
-                margin: -12px -14px;
-                border-radius: 10px;
-                gap: 12px;
-                border-width: 1.5px;
-                display: flex;
-                align-items: center;
-                line-height: 1.4;
-            }
-            .location-link:hover {
-                background: rgba(197, 168, 75, 0.15);
-                transform: translateY(-1px);
-                box-shadow: 0 6px 16px rgba(197, 168, 75, 0.2);
-            }
-            .location-link i {
-                font-size: 16px;
-                margin-top: 0;
-            }
-        }
-        @media (max-width: 480px) {
-            .location-link {
-                padding: 10px 12px;
-                margin: -10px -12px;
-                gap: 10px;
-                font-size: 14px;
-                line-height: 1.3;
-            }
-            .location-link i {
-                font-size: 15px;
-            }
-        }
-    </style>
 </head>
 <body>
 
 <nav id="nav">
     <div class="nav-inner">
-        <a href="#hero" class="nav-logo">ALHADY<sup>EG</sup></a>
+        <a href="#hero" class="nav-logo">ALHADY<sup>LU</sup></a>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
@@ -88,7 +21,7 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
         <a href="https://wa.me/201013149777" class="nav-btn" target="_blank">
-            <i class="fas fa-phone" style="font-size:11px;"></i> Request a Quote
+            <i class="fas fa-phone text-small"></i> Request a Quote
         </a>
     </div>
 </nav>
@@ -251,12 +184,12 @@
 
 <section id="gallery" class="section section-alt">   
     <div class="container">
-        <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:24px;">
+        <div class="flex-between">
             <div class="reveal">
                 <div class="eyebrow">Our Work</div>
                 <h2 class="section-h2">Selected Projects</h2>
             </div>
-            <p class="reveal d1" style="font-size:14px; color:var(--silver); max-width:320px; text-align:right; line-height:1.7;">
+            <p class="reveal d1 text-small text-right max-w-320 opacity-60">
                 From residential glass installations to large commercial curtain wall facades.
             </p>
         </div>
@@ -331,7 +264,7 @@
                                 <a href="https://maps.app.goo.gl/h5gVGuJjSJTVbSMWA?g_st=iw" target="_blank" class="location-link">
                                     <i class="fas fa-map-pin"></i>
                                     El Talatiny St., Omraniya<br>
-                                    <span style="font-size:14px; color:var(--silver);">Cairo, Egypt</span>
+                                    <span class="text-small opacity-60">Cairo, Egypt</span>
                                 </a>
                             </div>
                         </div>
@@ -344,7 +277,7 @@
                                 <a href="https://www.google.com/maps/place/30%C2%B003'15.5%22N+31%C2%B006'07.6%22E/" target="_blank" class="location-link">
                                     <i class="fas fa-map-pin"></i>
                                     Al Wahat Road Axis<br>
-                                    <span style="font-size:14px; color:var(--silver);">Abu Rawash, Giza</span>
+                                    <span class="text-small opacity-60">Abu Rawash, Giza</span>
                                 </a>
                             </div>
                         </div>
